@@ -44,7 +44,7 @@ app.use("/admin", adminReportRoutes);
    SERVER & DATABASE
 =============================== */
 
-const PORT = process.env.PORT ||5003;
+const PORT = process.env.PORT ||5000;
 const URL = process.env.MONGOURL;
 
 mongoose
