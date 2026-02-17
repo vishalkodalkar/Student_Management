@@ -24,12 +24,6 @@ const Register = () => {
               🎓 Register as Student
             </button>
 
-            <button
-              className="btn btn-outline-danger btn-lg register-btn"
-              onClick={() => setMode("admin")}
-            >
-              🛡️ Register as Admin
-            </button>
           </div>
         )}
 

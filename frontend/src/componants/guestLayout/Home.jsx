@@ -29,7 +29,7 @@ const Home = () => {
             Student Management System
           </h1>
 
-          <p className="lead mb-4 animate-fade delay-1 ">
+          <p className="lead mb-4 animate-fade font-semibold delay-1 ">
             Empowering educational institutions with efficient digital student
             records, secure authentication, and streamlined academic workflows.
           </p>
@@ -153,7 +153,7 @@ const Home = () => {
           </h2>
 
           <div className="row justify-content-center g-3">
-            {["React.js", "Express.js", "MongoDB", "Bootstrap"].map(
+            {["React.js", "Express.js", "Node.js", "MongoDB", "Bootstrap"].map(
               (tech, index) => (
                 <div className="col-6 col-md-2 text-center" key={index}>
                   <div className="card border-0 shadow-sm py-3 animate-fade">
